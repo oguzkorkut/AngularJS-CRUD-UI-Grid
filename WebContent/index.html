@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="crudApp">
+<head>
+<meta charset="utf-8">
+<title>UI-Router CRUD</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.css" />
+<link href="css/ui-grid-4.0.0/ui-grid.min.css"  rel="stylesheet" />
+
+<link rel="stylesheet" href="css/crud.css" />
+
+<script src="js/lib/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-local-storage/0.6.0/angular-local-storage.js"></script>
+
+<script type="text/javascript" src="js/lib/svg-assets-cache-114/svg-assets-cache.js"></script>
+<!-- UI-GRID -->
+
+<script type="text/javascript" src="js/lib/ui-grid-4.0.0/ui-grid.min.js"></script>
+
+<script src="js/lib/angular-ui-router.js"></script>
+<script src="js/app.js"></script>
+<script src="js/services/es3UIGridDefs.js"></script>
+
+
+<script src="js/controller/kaydetController.js"></script>
+<script src="js/controller/kullaniciDetayController.js"></script>
+<script src="js/controller/kullaniciGuncelleController.js"></script>
+<script src="js/controller/kullaniciListController.js"></script>
+<script src="js/router.js"></script>
+<script src="js/services/cacheService.js"></script>
+<script src="js/services/constantService.js"></script>
+<script src="js/services/crudService.js"></script>
+<script src="js/services/service.js"></script>
+
+
+
+
+</head>
+<body>
+
+	<ui-view></ui-view>
+	
+</body>
+</html>
